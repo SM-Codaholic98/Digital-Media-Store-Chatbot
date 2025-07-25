@@ -1,0 +1,102 @@
+Here are several complex prompts tailored for the Chinook database along with their expected natural language answers. These cover multi-table joins, aggregations, filtering, and subqueries — ideal for testing your LangChain + Bedrock full-chain setup.
+
+🧩 Prompt 1: Top Artists by Sales
+Prompt:
+
+Who are the top 5 artists with the highest total invoice amounts, and how much did they earn?
+
+Expected Answer:
+
+The top 5 artists with the highest total invoice amounts are:
+
+Iron Maiden – $43.15
+
+U2 – $40.65
+
+Led Zeppelin – $39.60
+
+Deep Purple – $38.70
+
+Metallica – $38.70
+
+🧩 Prompt 2: Average Spending per Country
+Prompt:
+
+What is the average invoice total per country, and which country has the highest average?
+
+Expected Answer:
+
+The country with the highest average invoice total is the Czech Republic with $37.62. Other notable averages include:
+
+Canada: $24.39
+
+USA: $21.00
+
+France: $20.50
+
+🧩 Prompt 3: Customer Loyalty (Most Purchases)
+Prompt:
+
+Which customer has made the most purchases, and how many invoices have they made?
+
+Expected Answer:
+
+The most loyal customer is Luis Goncalves from Brazil with 7 invoices.
+
+🧩 Prompt 4: Most Popular Track Genres
+Prompt:
+
+What are the top 3 genres by number of tracks sold?
+
+Expected Answer:
+
+The top 3 genres based on number of tracks sold are:
+
+Rock – 835 tracks
+
+Latin – 579 tracks
+
+Metal – 561 tracks
+
+🧩 Prompt 5: Average Purchase per Customer by Country
+Prompt:
+
+What is the average purchase amount per customer for each country?
+
+Expected Answer:
+
+Here's a sample:
+
+USA: $49.14
+
+Canada: $45.35
+
+France: $47.90
+The country with the highest average is the Czech Republic.
+
+🧩 Prompt 6: Albums with Most Tracks
+Prompt:
+
+Which album has the highest number of tracks, and how many tracks does it have?
+
+Expected Answer:
+
+The album Greatest Hits by Queen has the highest number of tracks: 21.
+
+🧩 Prompt 7: Sales Trends Over Time
+Prompt:
+
+What are the total invoice amounts per month, and which month had the highest revenue?
+
+Expected Answer:
+
+The highest revenue was generated in June 2013 with a total of $318.21. Other high revenue months include May 2013 and July 2013.
+
+🧩 Prompt 8: Unused Tracks
+Prompt:
+
+Which tracks were never purchased?
+
+Expected Answer:
+
+There are 15 tracks that have never been purchased. One of them is "The Last Baron" from the album Crack the Skye.
